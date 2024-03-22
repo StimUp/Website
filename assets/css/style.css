@@ -1194,7 +1194,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 #contact {
     box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
-    padding: 60px 0;
+    padding: 0px 0;
     overflow: hidden;
 }
 
@@ -1218,7 +1218,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .social-links {
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 #contact .social-links a {
@@ -1242,21 +1242,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     color: var(--offwhite);
 }
 
-#contact .info {
-    color: #333333;
-}
-
-#contact .info i {
-    font-size: 32px;
-    color: var(--dodgerblue);
-    float: left;
-    line-height: 1;
-}
-
-#contact .info p {
-    padding: 0 0 10px 42px;
-    line-height: 28px;
-    font-size: 14px;
+#contact .form {
+    padding-top: 5em;
 }
 
 #contact .php-email-form .validate {
@@ -1318,7 +1305,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .php-email-form button[type="submit"] {
-    background: linear-gradient(45deg, var(--darknavyblue), var(--dodgerblue));
+    background: linear-gradient(45deg, var(--darknavyblue), var(--royalblue));
     border: 0;
     border-radius: 20px;
     padding: 8px 30px;
@@ -1352,21 +1339,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+
 #footer {
     background: var(--offwhite);
     box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
-    padding: 30px 0;
-    color: #333;
+    padding: 25px 0;
     font-size: 14px;
 }
 
-#footer .credits {
-    font-size: 13px;
-    color: var(--greyishbeige);
-}
-
 #footer .footer-links a {
-    color: var(--greyishbeige);
+    color: var(--darknavyblue);
     padding-left: 15px;
 }
 
