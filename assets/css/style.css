@@ -1202,18 +1202,18 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size: 36px;
     margin: 0 0 10px 0;
     padding: 0;
-    line-height: 1;
-    font-family: "Montserrat", sans-serif;
+    /* line-height: 1;
+    font-family: "Hankan Grotesk", sans-serif;
     font-weight: 300;
-    letter-spacing: 3px;
+    letter-spacing: 3px; */
     text-transform: uppercase;
     color: var(--dodgerblue);
 }
 
 #contact .contact-about p {
     font-size: 14px;
-    line-height: 24px;
-    font-family: "Montserrat", sans-serif;
+    /* line-height: 24px;
+    font-family: "Hankan Grotesk", sans-serif; */
     color: var(--greyishbeige);
 }
 
