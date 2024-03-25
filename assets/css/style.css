@@ -1095,7 +1095,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Our Team Section
 --------------------------------*/
-#team {
+/* #team {
     padding: 60px 0;
     overflow: hidden;
 }
@@ -1142,12 +1142,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 #team .member .social i {
     font-size: 18px;
     margin: 0 2px;
-}
+} */
 
 /* Gallery Section
 --------------------------------*/
 #gallery {
-    background: var(--offwhite);
+    background: var(--greyishbeige);
     padding: 60px 0 0 0;
     overflow: hidden;
 }
