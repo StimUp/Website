@@ -163,7 +163,7 @@ h6 {
 #intro .intro-text {
     position: absolute;
     left: 0;
-    top: 90px;
+    top: 120px;
     right: 0;
     /* height: calc(50% - 60px); */
     height: calc(100% - 60px);
@@ -619,8 +619,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* About Us Section
 --------------------------------*/
 #about {
-    padding: 60px 0;
+    padding-top: 5rem;
     overflow: hidden;
+    padding-bottom: 10px;
 }
 
 #about p {
@@ -629,6 +630,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about h3 {
     color: var(--darknavyblue);
+    margin: 0 0 0 0;
 }
 
 #about li {
@@ -636,7 +638,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-img {
-    height: 510px;
+    height: 420px;
     overflow: hidden;
 }
 
@@ -652,7 +654,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
     #about .about-img img {
         margin-left: 0;
-        padding-bottom: 30px;
+        /* padding-bottom: 30px; */
     }
 }
 
@@ -698,7 +700,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #features {
     background: var(--offwhite);
     /* background-image: url(../img/bg1.jpg); */
-    padding: 60px 0 0 0;
+    padding: 10rem 0 10rem 0;
     overflow: hidden;
 }
 
@@ -893,13 +895,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* More Features Section
 --------------------------------*/
 #more-features {
-    padding: 60px 0 60px 0;
+    padding: 100px 0 100px 0;
     overflow: hidden;
     background-color: var(--offwhite);
 }
 
 #more-features h3 {
     color: var(--darknavyblue);
+    margin-bottom: 4rem;
 }
 
 #more-features p {
@@ -911,7 +914,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #more-features .box {
-    padding: 40px;
+    padding: 60px;
     margin-bottom: 30px;
     box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
     background: var(--greyishbeige);
@@ -976,13 +979,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Clients Section
 --------------------------------*/
 #clients {
-    padding: 30px 0;
+    padding: 10px 0;
     background: var(--greyishbeige);
     overflow: hidden;
 }
 
 #clients img {
     max-width: 100%;
+    max-height: 40%;
     opacity: 0.5;
     transition: 0.3s;
     padding: 15px 0;
@@ -1012,6 +1016,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     /* padding: 60px 0 60px 0; */
     overflow: hidden;
     background-color: var(--darknavyblue);
+    padding-top: 3rem;
+    padding-bottom: 2rem;
 }
 
 
@@ -1083,19 +1089,107 @@ body.mobile-nav-active #mobile-nav-toggle {
     background: linear-gradient(45deg, var(--darknavyblue), var(--dodgerblue));
 }
 
-/* Frequently Asked Questions Section
+
+/* Product Doc Section
 --------------------------------*/
-#faq {
-    padding: 60px 0;
+#doc {
     overflow: hidden;
 }
 
+#doc .section-bg{
+    background: var(--dodgerblue);
+}
+
+#doc .doc-row {
+    padding: 100px 0 50px 0;
+}
+
+#doc h2 {
+    font-size: 26px;
+    /* font-weight: 700; */
+    color: var(--offwhite);
+}
+
+#doc h3 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    /* font-style: italic; */
+    color: var(--offwhite);
+}
+
+#doc p {
+    line-height: 40px;
+    color: var(--offwhite);
+    margin-bottom: 30px;
+}
+
+#doc h6 {
+    color: var(--offwhite);
+    line-height: 1px;
+}
+
+#doc i {
+    color: var(--offwhite);
+    font-size: 64px;
+    transition: 0.5s;
+    float: left;
+    padding: 0 15px 0px 0;
+    line-height: 1;
+}
+
+/* #doc i:before {
+    background: var(--dodgerblue);
+    background: linear-gradient(45deg, var(--darknavyblue) 0%, var(--royalblue) 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} */
+
+#doc .doc-img-right {
+    max-width: 50%;
+    float: right;
+    padding: 0 0 30px 30px;
+}
+
+#doc .doc-img-left {
+    max-width: 50%;
+    float: left;
+    padding: 0 30px 30px 0;
+}
+
+@media (max-width: 768px) {
+
+    #doc .doc-img-right,
+    #doc .doc-img-left {
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 767px) {
+
+    #doc .doc-img-right,
+    #doc .doc-img-left {
+        max-width: 50%;
+        float: none;
+        padding: 0 0 30px 0;
+    }
+}
+
+/* Frequently Asked Questions Section
+--------------------------------*/
+#faq {
+    padding: 140px 0;
+    overflow: hidden;
+    background-color: #091F4C;
+}
+
 #faq h3 {
-    color: var(--darknavyblue);
+    color: var(--offwhite);
 }
 
 #faq p {
-    color: var(--darknavyblue);
+    color: var(--offwhite);
 }
 
 #faq #faq-list {
@@ -1127,7 +1221,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #faq #faq-list p {
     margin-bottom: 20px;
-    color: var(--darknavyblue);
+    color: var(--offwhite);
 }
 
 @media (max-width: 768px) {
@@ -1145,7 +1239,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #faq #faq-list a.collapsed {
-    color: #000;
+    color: var(--offwhite);
 }
 
 #faq #faq-list a.collapsed i::before {
