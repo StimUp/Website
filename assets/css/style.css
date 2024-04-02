@@ -15,7 +15,7 @@
 body {
     background: var(--offwhite);
     color: #666666;
-    font-family: "Hanken Grotesk", sans-serif;
+    font-family: "Hanken Grotesk", sans-serif !important;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
@@ -47,7 +47,7 @@ h4,
 h5,
 h6 {
     font-family: "Hanken Grotesk", sans-serif;
-    font-weight: 300 !important;
+    font-weight: 300;
     margin: 0 0 20px 0;
     padding: 0;
 }
@@ -621,20 +621,30 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about {
     padding-top: 5rem;
     overflow: hidden;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
+    line-height: normal;
 }
 
 #about p {
     color: var(--darknavyblue);
+    font-family: "Hanken Grotesk", sans-serif;
+    line-height: 31px !important;
+    font-size: 18px;
 }
 
 #about h3 {
     color: var(--darknavyblue);
-    margin: 0 0 0 0;
+    font-family: "Hanken Grotesk", sans-serif !important;
+    line-height: normal;
+    /* margin: 0 0 0 0; */
+    font-size: 30px;
 }
 
 #about li {
     color: var(--darknavyblue);
+    font-family: "Hanken Grotesk", sans-serif;
+    line-height: normal;
+    font-size: 18px;
 }
 
 #about .about-img {
