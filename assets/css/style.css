@@ -1253,7 +1253,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #faq #faq-list a.collapsed i::before {
-    content: "\f2c7" !important;
+    position: relative;
+    bottom: 0;
+    content: "\f078" !important;
 }
 
 /* Our Team Section
