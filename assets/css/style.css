@@ -786,13 +786,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #advanced-features .features-row {
     padding: 100px 0 0px 0;
-    background-color: var(--greyishbeige);
+    background-color: var(--dodgerblue);
 }
 
 #advanced-features h2 {
     font-size: 26px;
-    /* font-weight: 700; */
-    color: var(--darknavyblue);
+    font-weight: 700;
+    color: var(--offwhite);
 }
 
 #advanced-features h3 {
@@ -800,17 +800,17 @@ body.mobile-nav-active #mobile-nav-toggle {
     line-height: 24px;
     font-weight: 400;
     /* font-style: italic; */
-    color: var(--darknavyblue);
+    color: var(--offwhite);
 }
 
 #advanced-features p {
     /* line-height: 24px; */
-    color: var(--darknavyblue);
+    color: var(--offwhite);
     margin-bottom: 30px;
 }
 
 #advanced-features i {
-    color: var(--darknavyblue);
+    color: var(--offwhite);
     font-size: 64px;
     transition: 0.5s;
     float: left;
@@ -860,7 +860,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 #call-to-action {
     overflow: hidden;
-    background: linear-gradient(rgba(203, 198, 195, 1), rgba(9, 31, 76, 1)), url(../img/call-to-action-bg.jpg) fixed center center;
+    background: linear-gradient(rgba(34, 100, 220, 1), rgba(9, 31, 76, 1)), url(../img/call-to-action-bg.jpg) fixed center center;
     background-size: cover;
     padding: 80px 0;
 }
