@@ -1047,7 +1047,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #pricing h4 span {
-    color: var(--greyishbeige);
+    color: var(--royalblue);
     font-size: 20px;
 }
 
@@ -1106,27 +1106,27 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #doc h2 {
     font-size: 26px;
-    /* font-weight: 700; */
+    font-weight: bold;
     color: var(--offwhite);
 }
 
 #doc h3 {
     font-size: 16px;
     line-height: 24px;
-    font-weight: 400;
+    font-weight: bold;
     /* font-style: italic; */
     color: var(--offwhite);
 }
 
 #doc p {
-    line-height: 40px;
+    line-height: bold;
     color: var(--offwhite);
     margin-bottom: 30px;
 }
 
 #doc h6 {
     color: var(--offwhite);
-    line-height: 1px;
+    line-height: bold;
 }
 
 #doc i {
@@ -1135,7 +1135,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     transition: 0.5s;
     float: left;
     padding: 0 15px 0px 0;
-    line-height: 1;
+    line-height: bold;
 }
 
 /* #doc i:before {
