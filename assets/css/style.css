@@ -619,10 +619,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* About Us Section
 --------------------------------*/
 #about {
-    padding-top: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 0;
     overflow: hidden;
-    padding-bottom: 15px;
     line-height: normal;
+    background-color: var(--offwhite);
+}
+
+#about .container-fluid {
+    padding: 10px;
+    background-color: var(--greyishbeige);
 }
 
 #about p {
@@ -650,11 +656,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about .about-img {
     height: 420px;
     overflow: hidden;
+    margin-bottom: 30px;
 }
 
 #about .about-img img {
-    margin-left: -15px;
+    /* margin-left: -15px; */
+    margin-left: 0px;
     max-width: 100%;
+    padding-bottom: 30px;
 }
 
 @media (max-width: 768px) {
@@ -663,8 +672,9 @@ body.mobile-nav-active #mobile-nav-toggle {
     }
 
     #about .about-img img {
-        margin-left: 0;
-        /* padding-bottom: 30px; */
+        margin-right: 0;
+        /* margin-left: -15px; */
+        margin-right: 0px;
     }
 }
 
@@ -708,19 +718,24 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Product Featuress Section
 --------------------------------*/
 #features {
-    background: var(--offwhite);
+    background: var(--royalblue);
     /* background-image: url(../img/bg1.jpg); */
-    padding: 10rem 0 10rem 0;
+    padding: 5rem 0 5rem 0;
     overflow: hidden;
 }
 
+#features .container-fluid {
+    padding: 30px;
+    background-color: var(--darknavyblue);
+}
+
 #features h3 {
-    color: var(--darknavyblue);
+    color: var(--offwhite);
 }
 
 #features .features-img {
     text-align: center;
-    padding-top: 20px;
+    /* padding-top: 20px; */
 }
 
 @media (min-width: 769px) {
@@ -759,7 +774,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #features .title {
     font-weight: 200;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     font-size: 22px;
 }
 
@@ -771,7 +786,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size: 14px;
     line-height: 24px;
     margin-bottom: 10px;
-    color: var(--darknavyblue);
+    color: var(--offwhite);
 }
 
 #features .section-description {
@@ -785,8 +800,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #advanced-features .features-row {
-    padding: 100px 0 0px 0;
+    padding: 50px 0 0px 0;
     background-color: var(--dodgerblue);
+}
+
+#advanced-features .container-fluid {
+    padding: 30px;
+    background-color: var(--royalblue);
 }
 
 #advanced-features h2 {
@@ -829,7 +849,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #advanced-features .advanced-feature-img-right {
     max-width: 50%;
     float: right;
-    padding: 0 0 30px 30px;
+    padding: 50px 30px 0 30px;
 }
 
 #advanced-features .advanced-feature-img-left {
@@ -989,9 +1009,17 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Clients Section
 --------------------------------*/
 #clients {
-    padding: 10px 0;
-    background: var(--greyishbeige);
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    background: var(--offwhite);
     overflow: hidden;
+}
+
+#clients .container-fluid {
+    background-color: var(--greyishbeige);
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 #clients img {
@@ -1110,8 +1138,13 @@ body.mobile-nav-active #mobile-nav-toggle {
     background: var(--dodgerblue);
 }
 
+#doc .container-fluid {
+    padding: 15px;
+    background-color: var(--royalblue);
+}
+
 #doc .doc-row {
-    padding: 100px 0 50px 0;
+    padding: 100px 0 100px 0;
 }
 
 #doc h2 {
@@ -1325,9 +1358,17 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Gallery Section
 --------------------------------*/
 #gallery {
-    background: var(--greyishbeige);
-    padding: 60px 0 0 0;
+    background: var(--dodgerblue);
     overflow: hidden;
+}
+
+#gallery .container-fluid {
+    background-color: var(--royalblue);
+    margin-top: 2rem;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    padding-top: 10px !important;
+    width: fit-content;
 }
 
 #gallery h3 {
@@ -1534,14 +1575,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #footer {
-    background: var(--offwhite);
+    background: var(--darknavyblue);
     box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
     padding: 25px 0;
     font-size: 14px;
 }
 
 #footer .footer-links a {
-    color: var(--darknavyblue);
+    color: var(--offwhite);
     padding-left: 15px;
 }
 
