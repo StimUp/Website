@@ -1089,7 +1089,10 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size: 20px;
 }
 
-#pricing ul {
+#pricing .featured {
+    border: 2px solid var(--dodgerblue);
+}
+/* #pricing ul {
     padding: 0;
     list-style: none;
     color: var(--greyishbeige);
@@ -1116,16 +1119,14 @@ body.mobile-nav-active #mobile-nav-toggle {
     transition: none;
     font-size: 14px;
     font-weight: 400;
-    font-family: "Hanken Grotesk", sans-serif;
+    font-family: "Hanken Grotesk", sans-serif; 
 }
 
-#pricing .featured {
-    border: 2px solid var(--dodgerblue);
-}
 
 #pricing .featured .get-started-btn {
     background: linear-gradient(45deg, var(--darknavyblue), var(--dodgerblue));
 }
+*/
 
 
 /* Product Doc Section
@@ -1138,9 +1139,21 @@ body.mobile-nav-active #mobile-nav-toggle {
     background: var(--dodgerblue);
 }
 
-#doc .container-fluid {
-    padding: 15px;
+#doc .container-fluid {    
+    padding: 40px;
     background-color: var(--royalblue);
+    
+    --notchSize: 20px;
+    
+    clip-path:
+        polygon(0% var(--notchSize),
+            var(--notchSize) 0%,
+            calc(100% - var(--notchSize)) 0%,
+            100% var(--notchSize),
+            100% calc(100% - var(--notchSize)),
+            calc(100% - var(--notchSize)) 100%,
+            var(--notchSize) 100%,
+            0% calc(100% - var(--notchSize)));
 }
 
 #doc .doc-row {
@@ -1192,7 +1205,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #doc .doc-img-right {
     max-width: 50%;
     float: right;
-    padding: 0 0 30px 30px;
+    padding: 0 0 0 30px;
 }
 
 #doc .doc-img-left {
