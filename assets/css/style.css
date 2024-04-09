@@ -146,7 +146,7 @@ h6 {
 #intro {
     width: 100%;
     /* height: 100vh; */
-    height: 30em;
+    height: 50em;
     background-color: var(--darknavyblue);
     /* background: linear-gradient(45deg, rgba(9, 31, 76, 1), rgba(90, 140, 255, 1)), url("../img/intro-bg.jpg") center top no-repeat; */
     /* background-image: url(../img/bg1.jpg); */
@@ -163,10 +163,10 @@ h6 {
 #intro .intro-text {
     position: absolute;
     left: 0;
-    top: 120px;
+    /* top: 120px; */
     right: 0;
     /* height: calc(50% - 60px); */
-    height: calc(100% - 60px);
+    height: calc(100% - 100px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -274,6 +274,76 @@ h6 {
         display: none;
     }
 }
+
+#intro .box {
+    padding: 40px;
+    margin-top: 31rem;
+    box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
+    background: var(--offwhite);
+    text-align: center;
+}
+
+#pricing h3 {
+    font-weight: 400;
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+
+#pricing h4 {
+    font-size: 46px;
+    color: var(--dodgerblue);
+    font-weight: 300;
+}
+
+#intro h4 sup {
+    font-size: 20px;
+    top: -20px;
+}
+
+#intro h4 span {
+    color: var(--royalblue);
+    font-size: 20px;
+}
+
+#intro .featured {
+    border: 2px solid var(--dodgerblue);
+}
+
+/* #intro ul {
+    padding: 0;
+    list-style: none;
+    color: var(--greyishbeige);
+    text-align: left;
+    line-height: 20px;
+}
+
+#intro ul li {
+    padding-bottom: 12px;
+}
+
+#intro ul i {
+    color: var(--dodgerblue);
+    font-size: 18px;
+    padding-right: 4px;
+}
+
+#intro .get-started-btn {
+    background: #515e61;
+    display: inline-block;
+    padding: 6px 30px;
+    border-radius: 20px;
+    color: var(--offwhite);
+    transition: none;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Hanken Grotesk", sans-serif; 
+}
+
+
+#intro .featured .get-started-btn {
+    background: linear-gradient(45deg, var(--darknavyblue), var(--dodgerblue));
+}
+*/
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -1048,88 +1118,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-weight: bolder;
 }
 
-/* Pricing Section
---------------------------------*/
-#pricing {
-    /* padding: 60px 0 60px 0; */
-    overflow: hidden;
-    background-color: var(--darknavyblue);
-    padding-top: 3rem;
-    padding-bottom: 2rem;
-}
-
-
-#pricing .box {
-    padding: 40px;
-    margin-bottom: 30px;
-    box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
-    background: var(--offwhite);
-    text-align: center;
-}
-
-#pricing h3 {
-    font-weight: 400;
-    margin-bottom: 15px;
-    font-size: 28px;
-}
-
-#pricing h4 {
-    font-size: 46px;
-    color: var(--dodgerblue);
-    font-weight: 300;
-}
-
-#pricing h4 sup {
-    font-size: 20px;
-    top: -20px;
-}
-
-#pricing h4 span {
-    color: var(--royalblue);
-    font-size: 20px;
-}
-
-#pricing .featured {
-    border: 2px solid var(--dodgerblue);
-}
-/* #pricing ul {
-    padding: 0;
-    list-style: none;
-    color: var(--greyishbeige);
-    text-align: left;
-    line-height: 20px;
-}
-
-#pricing ul li {
-    padding-bottom: 12px;
-}
-
-#pricing ul i {
-    color: var(--dodgerblue);
-    font-size: 18px;
-    padding-right: 4px;
-}
-
-#pricing .get-started-btn {
-    background: #515e61;
-    display: inline-block;
-    padding: 6px 30px;
-    border-radius: 20px;
-    color: var(--offwhite);
-    transition: none;
-    font-size: 14px;
-    font-weight: 400;
-    font-family: "Hanken Grotesk", sans-serif; 
-}
-
-
-#pricing .featured .get-started-btn {
-    background: linear-gradient(45deg, var(--darknavyblue), var(--dodgerblue));
-}
-*/
-
-
-/* Product Doc Section
+/* Doc Section
 --------------------------------*/
 #doc {
     overflow: hidden;
