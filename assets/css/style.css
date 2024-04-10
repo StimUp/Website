@@ -148,8 +148,8 @@ h6 {
     /* height: 100vh; */
     height: 50em;
     background-color: var(--darknavyblue);
-    /* background: linear-gradient(45deg, rgba(9, 31, 76, 1), rgba(90, 140, 255, 1)), url("../img/intro-bg.jpg") center top no-repeat; */
-    /* background-image: url(../img/bg1.jpg); */
+    background: linear-gradient(45deg, rgba(9, 31, 76, 1), rgb(27, 73, 182)), url("../img/bg1.jpg") center top no-repeat;
+    /* background-image: url(../img/bg3.jpg); */
     background-size: cover;
     position: relative;
 }
@@ -283,13 +283,13 @@ h6 {
     text-align: center;
 }
 
-#pricing h3 {
+#intro h3 {
     font-weight: 400;
     margin-bottom: 15px;
     font-size: 28px;
 }
 
-#pricing h4 {
+#intro h4 {
     font-size: 46px;
     color: var(--dodgerblue);
     font-weight: 300;
@@ -689,7 +689,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* About Us Section
 --------------------------------*/
 #about {
-    padding-top: 2rem;
+    padding-top: 1rem;
     padding-bottom: 0;
     overflow: hidden;
     line-height: normal;
@@ -788,19 +788,23 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Product Featuress Section
 --------------------------------*/
 #features {
-    background: var(--royalblue);
+    background: var(--dodgerblue);
     /* background-image: url(../img/bg1.jpg); */
-    padding: 5rem 0 5rem 0;
+    padding: 6rem 0 0 0;
     overflow: hidden;
 }
 
 #features .container-fluid {
     padding: 30px;
-    background-color: var(--darknavyblue);
+    background-color: var(--offwhite);
+}
+
+#features p {
+    color: var(--darknavyblue) !important;
 }
 
 #features h3 {
-    color: var(--offwhite);
+    color: var(--darknavyblue);
 }
 
 #features .features-img {
@@ -849,7 +853,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #features .title a { /* titulo dos paragrafos */
-    color: var(--royalblue);
+    color: var(--crismson);
 }
 
 #features .description {
@@ -870,7 +874,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #advanced-features .features-row {
-    padding: 50px 0 0px 0;
+    padding: 20px 0 0px 0;
     background-color: var(--dodgerblue);
 }
 
@@ -1080,7 +1084,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 #clients {
     padding-top: 1rem;
-    padding-bottom: 2rem;
+    padding-bottom: 25px;
     background: var(--offwhite);
     overflow: hidden;
 }
@@ -1118,6 +1122,20 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-weight: bolder;
 }
 
+#clients .btn-get-started {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 30px;
+    border: 2px solid var(--darknavyblue);
+    color: var(--darknavyblue);
+}
+
 /* Doc Section
 --------------------------------*/
 #doc {
@@ -1125,14 +1143,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #doc .section-bg{
-    background: var(--dodgerblue);
+    background: var(--offwhite);
 }
 
 #doc .container-fluid {    
     padding: 40px;
     background-color: var(--royalblue);
     
-    --notchSize: 20px;
+    /* --notchSize: 20px;
     
     clip-path:
         polygon(0% var(--notchSize),
@@ -1142,11 +1160,11 @@ body.mobile-nav-active #mobile-nav-toggle {
             100% calc(100% - var(--notchSize)),
             calc(100% - var(--notchSize)) 100%,
             var(--notchSize) 100%,
-            0% calc(100% - var(--notchSize)));
+            0% calc(100% - var(--notchSize))); */
 }
 
 #doc .doc-row {
-    padding: 100px 0 100px 0;
+    padding: 80px 0 0px 0;
 }
 
 #doc h2 {
@@ -1224,7 +1242,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Frequently Asked Questions Section
 --------------------------------*/
 #faq {
-    padding: 140px 0;
+    padding: 80px 0;
     overflow: hidden;
     background-color: #091F4C;
 }
@@ -1300,6 +1318,10 @@ body.mobile-nav-active #mobile-nav-toggle {
     overflow: hidden;
 }
 
+#team h3 {
+    color: var(--darknavyblue);
+}
+
 #team .member {
     text-align: center;
     margin-bottom: 20px;
@@ -1317,7 +1339,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #team .member h4 {
     font-weight: 700;
-    margin-bottom: 2px;
+    margin-bottom: 20px;
     font-size: 18px;
 }
 
