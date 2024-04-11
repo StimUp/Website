@@ -143,10 +143,10 @@ h6 {
 /*--------------------------------------------------------------
 # Intro Section
 --------------------------------------------------------------*/
+
 #intro {
     width: 100%;
-    /* height: 100vh; */
-    height: 50em;
+    height: 65rem;
     background-color: var(--darknavyblue);
     background: linear-gradient(45deg, rgba(9, 31, 76, 1), rgb(27, 73, 182)), url("../img/bg1.jpg") center top no-repeat;
     /* background-image: url(../img/bg3.jpg); */
@@ -166,12 +166,16 @@ h6 {
     /* top: 120px; */
     right: 0;
     /* height: calc(50% - 60px); */
-    height: calc(100% - 100px);
+    height: calc(70% - 100px);
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     flex-direction: column;
+}
+
+#intro .container-fluid {
+    padding: 0;
 }
 
 #intro h2 {
@@ -223,7 +227,7 @@ h6 {
     color: var(--dodgerblue);
     background: var(--offwhite);
 }
-
+/* 
 #intro .product-screens {
     position: absolute;
     left: 0;
@@ -273,11 +277,19 @@ h6 {
     #intro .product-screens .product-screen-3 {
         display: none;
     }
-}
+} */
 
 #intro .box {
     padding: 40px;
     margin-top: 31rem;
+    box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
+    background: var(--offwhite);
+    text-align: center;
+}
+
+#intro .box1 {
+    padding: 40px;
+    margin-top: 40px;
     box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
     background: var(--offwhite);
     text-align: center;
@@ -307,6 +319,22 @@ h6 {
 
 #intro .featured {
     border: 2px solid var(--dodgerblue);
+}
+
+@media (max-width: 767px) {
+    #intro .box {
+        margin-bottom: 20px;
+    }
+
+    #intro h3 {
+        font-size: 24px;
+    }
+
+    #intro h4,
+    #intro p {
+        margin-left: 0;
+        text-align: center;
+    }
 }
 
 /* #intro ul {
