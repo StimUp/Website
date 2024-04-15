@@ -164,8 +164,8 @@ h6 {
 #intro .intro-text {
     position: absolute;
     left: 0;
-    top: 2rem;
-    right: 0;
+    top: -7rem;
+    right: 0px;
     /* height: calc(50% - 60px); */
     height: calc(120% - 100px);
     display: flex;
@@ -176,7 +176,7 @@ h6 {
 }
 
 #intro .container-fluid {
-    margin-top: 1em;
+    margin-top: 3em;
 }
 
 @media (max-width: 768px) {
@@ -212,8 +212,9 @@ h6 {
 }
 
 /* #intro row1 {
-    padding: 80px 0 0px 0; */
+    padding: 80px 0 0px 0; 
 }
+*/
 
 @media (max-width: 768px) {
     #intro p {
@@ -229,10 +230,10 @@ h6 {
     font-size: 16px;
     letter-spacing: 1px;
     display: inline-block;
-    padding: 8px 28px;
+    padding: 25px 28px;
     border-radius: 50px;
     transition: 0.5s;
-    margin: 10px;
+    margin-top: 20px;
     border: 2px solid var(--offwhite);
     color: var(--offwhite);
 }
@@ -242,13 +243,12 @@ h6 {
     background: var(--offwhite);
 }
 
-/* 
 #intro .product-screens {
     position: absolute;
     left: 0;
     right: 0;
     bottom: 0;
-    overflow: hidden;
+    overflow:visible;
     text-align: center;
     width: 100%;
     height: 50%;
@@ -260,50 +260,55 @@ h6 {
 
 #intro .product-screens .product-screen-1 {
     position: absolute;
-    z-index: 30;
-    left: calc(50% + 54px);
+    left: calc(50% + 165px);
     bottom: 0;
-    top: 30px;
+    top: 120px;
+    width: 70rem;
 }
 
 #intro .product-screens .product-screen-2 {
     position: absolute;
-    z-index: 20;
-    left: calc(50% - 154px);
+    left: calc(50% - 12rem);
     bottom: 0;
-    top: 90px;
+    top: 120px;
+    width: 70rem;
 }
 
 #intro .product-screens .product-screen-3 {
     position: absolute;
-    z-index: 10;
-    left: calc(50% - 374px);
+    left: calc(50% - 547px);
     bottom: 0;
-    top: 150px;
+    top: 97px;
+    width: 70rem;
 }
 
 @media (max-width: 767px) {
     #intro .product-screens .product-screen-1 {
         position: static;
-        padding-top: 30px;
+        padding-top: 19rem;
+        /* max-height: 30%; */
+        width: 25.6rem;
+        /* margin-left: 40px; */
     }
 
-    #intro .product-screens .product-screen-2,
+    #intro .product-screens .product-screen-2 {
+        /* display: none; */
+        /* max-height: 30%; */
+        padding-top: 28rem;
+        width: 25.6rem;
+        left: 4px;
+    }
+
     #intro .product-screens .product-screen-3 {
-        display: none;
+        /* display: none; */
+        /* max-height: 30%; */
+        padding-top: 45rem;
+        width: 25.6rem;
+        left: 6px;
     }
-} */
-
-#intro .box {
-    padding: 40px;
-    /* margin-top: 1rem; */
-    height: 240px;
-    box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
-    background: var(--offwhite);
-    text-align: center;
 }
 
-#intro .box1 {
+#intro .box {
     padding: 40px;
     height: 240px;
     box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
@@ -338,9 +343,7 @@ h6 {
 }
 
 @media (max-width: 767px) {
-    #intro .box {
-
-    }
+    #intro .box {}
 
     #intro h3 {
         font-size: 24px;
@@ -1212,13 +1215,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #doc .doc-row {
-    padding: 80px 0 0px 0;
+    padding: 5rem 0 0px 0;
 }
 
-#doc h2 {
-    font-size: 26px;
-    font-weight: bold;
-    color: var(--offwhite);
+@media (max-width: 768px) {
+    #doc .doc-row {
+        padding: 52rem 0 0 0;
+    }
 }
 
 #doc h3 {
@@ -1285,6 +1288,8 @@ body.mobile-nav-active #mobile-nav-toggle {
         float: none;
         padding: 0 0 30px 0;
     }
+
+
 }
 
 /* Frequently Asked Questions Section
