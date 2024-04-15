@@ -146,27 +146,28 @@ h6 {
 
 #intro {
     width: 100%;
-    height: 65rem;
+    height: 35rem;
     background-color: var(--darknavyblue);
     background: linear-gradient(45deg, rgba(9, 31, 76, 1), rgb(27, 73, 182)), url("../img/bg1.jpg") center top no-repeat;
     /* background-image: url(../img/bg3.jpg); */
-    background-size: cover;
+    /* background-size: cover; */
     position: relative;
 }
 
 @media (min-width: 1025px) {
     #intro {
         background-attachment: fixed;
+        height: 50rem;
     }
 }
 
 #intro .intro-text {
     position: absolute;
     left: 0;
-    /* top: 120px; */
+    top: 2rem;
     right: 0;
     /* height: calc(50% - 60px); */
-    height: calc(70% - 100px);
+    height: calc(120% - 100px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -175,7 +176,16 @@ h6 {
 }
 
 #intro .container-fluid {
-    padding: 0;
+    margin-top: 1em;
+}
+
+@media (max-width: 768px) {
+    #intro .container-fluid {
+        margin-top: 34rem;
+    }
+    #intro .intro-text {
+        top: 1rem;
+    }
 }
 
 #intro h2 {
@@ -199,6 +209,10 @@ h6 {
     margin-bottom: 20px;
     padding: 0 15px;
     font-size: 24px;
+}
+
+/* #intro row1 {
+    padding: 80px 0 0px 0; */
 }
 
 @media (max-width: 768px) {
@@ -227,6 +241,7 @@ h6 {
     color: var(--dodgerblue);
     background: var(--offwhite);
 }
+
 /* 
 #intro .product-screens {
     position: absolute;
@@ -281,7 +296,8 @@ h6 {
 
 #intro .box {
     padding: 40px;
-    margin-top: 31rem;
+    /* margin-top: 1rem; */
+    height: 240px;
     box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
     background: var(--offwhite);
     text-align: center;
@@ -289,7 +305,7 @@ h6 {
 
 #intro .box1 {
     padding: 40px;
-    margin-top: 40px;
+    height: 240px;
     box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
     background: var(--offwhite);
     text-align: center;
@@ -323,7 +339,7 @@ h6 {
 
 @media (max-width: 767px) {
     #intro .box {
-        margin-bottom: 20px;
+
     }
 
     #intro h3 {
@@ -334,6 +350,10 @@ h6 {
     #intro p {
         margin-left: 0;
         text-align: center;
+    }
+
+    #intro .container-fluid {
+        margin-top: 40rem;
     }
 }
 
