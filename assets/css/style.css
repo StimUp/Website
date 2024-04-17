@@ -90,6 +90,7 @@ h6 {
     transition: all 0.5s;
     z-index: 997;
     background: linear-gradient(45deg, var(--darknavyblue), var(--dodgerblue));
+    /* background: linear-gradient(45deg, rgb(9, 31, 76, 0.8), rgb(34,100,220, 0.8)); */
 }
 
 #header #logo {
