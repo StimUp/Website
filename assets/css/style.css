@@ -1074,7 +1074,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* More Features Section
 --------------------------------*/
 #more-features {
-    padding: 100px 0 100px 0;
+    padding: 100px 0 50px 0;
     overflow: hidden;
     background-color: var(--offwhite);
 }
@@ -1392,6 +1392,21 @@ body.mobile-nav-active #mobile-nav-toggle {
     position: relative;
     bottom: 0;
     content: "\f078" !important;
+}
+
+/* End of FAQ Section -*/
+
+/* Belt Section -*/
+
+#belt {
+    padding: 40px 0;
+    overflow: hidden;
+    background-color: var(--crismson);
+}
+
+#belt .carousel-inner {
+    color: var(--offwhite);
+    padding: 4rem;
 }
 
 /* Our Team Section
