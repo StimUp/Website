@@ -52,29 +52,28 @@ h6 {
     padding: 0;
 }
 
-/* Back to top button */
-.back-to-top {
+.float {
     position: fixed;
-    display: none;
-    background: linear-gradient(45deg, var(--darknavyblue), var(--dodgerblue));
-    color: var(--offwhite);
-    padding: 2px 20px 8px 20px;
-    font-size: 16px;
-    border-radius: 4px 4px 0 0;
-    right: 15px;
-    bottom: 0;
-    transition: none;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
 }
 
-.back-to-top:focus {
-    background: linear-gradient(45deg, var(--darknavyblue), var(--dodgerblue));
-    color: var(--offwhite);
-    outline: none;
+.float:hover {
+    background-color: #25d366;
+    color: var(--darknavyblue);
 }
 
-.back-to-top:hover {
-    background: var(--dodgerblue);
-    color: var(--offwhite);
+.my-float {
+    margin-top: 16px;
 }
 
 /*--------------------------------------------------------------
@@ -192,7 +191,7 @@ h6 {
 
 @media (max-width: 768px) {
     #intro .intro-text {
-        left: 0;
+        left: 3rem;
         padding-bottom: 10rem;
         align-items: center;
     }
@@ -279,7 +278,7 @@ h6 {
     position: absolute;
     left: calc(50% + 165px);
     bottom: 0;
-    top: 20px;
+    top: 22px;
     width: 70rem;
 }
 
@@ -287,7 +286,7 @@ h6 {
     position: absolute;
     left: calc(50% - 12rem);
     bottom: 0;
-    top: 8rem;
+    top: 22px;
     width: 70rem;
 }
 
@@ -313,7 +312,7 @@ h6 {
     #intro .product-screens .product-screen-2 {
         /* display: none; */
         /* max-height: 30%; */
-        padding-top: 28rem;
+        padding-top: 34rem;
         /* width: 25.6rem; */
         width: calc(100% - 0px);
         max-width: 760px;
