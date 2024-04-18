@@ -148,7 +148,7 @@ h6 {
     width: 100%;
     height: 50rem;
     /* background-color: var(--darknavyblue); */
-    background: linear-gradient(100deg, rgb(9,31,76,1), rgb(255, 255, 255, 0.1)), url("../img/bg1.jpg") center top no-repeat;
+    background: linear-gradient(100deg, rgb(9,31,76,1), rgb(255, 255, 255, 0.1)), url("../img/diet-concept-with-female-scientist-healthy-food.jpg") center top no-repeat;
     /* background-image: url(../img/Template\ 2.4_1.png); */
     background-size: cover;
     position: relative;
@@ -1076,7 +1076,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #more-features {
     padding: 100px 0 50px 0;
     overflow: hidden;
-    background-color: var(--offwhite);
+    background-color: var(--dodgerblue);
 }
 
 #more-features h3 {
@@ -1089,7 +1089,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #more-features p.description {
-    color: var(--offwhite);
+    color: var(--darknavyblue);
 }
 
 #more-features .box {
@@ -1105,7 +1105,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #more-features .icon i {
-    color: var(--offwhite);
+    color: var(--darknavyblue);
     font-size: 80px;
     transition: 0.5s;
     line-height: 0;
@@ -1127,7 +1127,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #more-features h4 a {
-    color: var(--offwhite);
+    color: var(--darknavyblue);
 }
 
 #more-features p {
@@ -1457,6 +1457,12 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size: 24px;
     font-weight: 400;
     font-family: "Hanken Grotesk", sans-serif;
+}
+
+@media (max-width: 768px) {
+    #team .get-started-btn {
+        font-size: 18px;
+    }
 }
 
 /* 
