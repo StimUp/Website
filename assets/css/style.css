@@ -148,16 +148,19 @@ h6 {
     width: 100%;
     height: 50rem;
     /* background-color: var(--darknavyblue); */
-    background: linear-gradient(100deg, rgb(9,31,76,1), rgb(255, 255, 255, 0.1)), url("../img/diet-concept-with-female-scientist-healthy-food.jpg") center top no-repeat;
+    background: linear-gradient(160deg, rgb(9,31,76,0.8), rgba(255, 255, 255, 0.8)), url("../img/istock-_medica_nutricionista_nutrologa_widelg-1.webp") top center;
     /* background-image: url(../img/Template\ 2.4_1.png); */
-    background-size: cover;
+    background-size: contain;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
     position: relative;
 }
 
 @media (min-width: 1025px) {
     #intro {
-        background-attachment: fixed;
-        height: 50rem;
+        background-attachment: scroll;
+        /* height: 50rem;
+        background-repeat: no-repeat; */
     }
 }
 
@@ -166,7 +169,7 @@ h6 {
     width: 233px;
     height: 3px;
     /* background: var(--crismson); */
-    background: linear-gradient(0deg, var(--crismson) 0%, var(--darknavyblue) 100%);
+    background: linear-gradient(0deg, var(--crismson) 0%, var(--crismson) 100%);
     margin-bottom: 40px;
     margin-left: 1rem;
 }
@@ -191,9 +194,9 @@ h6 {
 
 @media (max-width: 768px) {
     #intro .intro-text {
-        left: 3rem;
         padding-bottom: 10rem;
         align-items: center;
+        left: auto;
     }
 }
 
@@ -254,7 +257,7 @@ h6 {
 }
 
 #intro .btn-get-started:hover {
-    color: var(--dodgerblue);
+    color: var(--crismson);
     background: var(--offwhite);
 }
 
@@ -701,81 +704,24 @@ body.mobile-nav-active #mobile-nav-toggle {
     background: var(--greyishbeige);
 }
 
-/*--------------------------------------------------------------
-# Breadcrumbs
---------------------------------------------------------------*/
-.breadcrumbs {
-    padding: 20px 0;
-    min-height: 40px;
-    margin-top: 92px;
-}
-
-@media (max-width: 992px) {
-    .breadcrumbs {
-        margin-top: 68px;
-    }
-}
-
-.breadcrumbs h2 {
-    font-size: 24px;
-    font-weight: 300;
-    margin: 0;
-}
-
-@media (max-width: 992px) {
-    .breadcrumbs h2 {
-        margin: 0 0 10px 0;
-    }
-}
-
-.breadcrumbs ol {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    font-size: 14px;
-}
-
-.breadcrumbs ol li+li {
-    padding-left: 10px;
-}
-
-.breadcrumbs ol li+li::before {
-    display: inline-block;
-    padding-right: 10px;
-    color: var(--greyishbeige);
-    content: "/";
-}
-
-@media (max-width: 768px) {
-    .breadcrumbs .d-flex {
-        display: block !important;
-    }
-
-    .breadcrumbs ol {
-        display: block;
-    }
-
-    .breadcrumbs ol li {
-        display: inline-block;
-    }
-}
-
 /* About Us Section
 --------------------------------*/
 #about {
-    padding-top: 1rem;
+    /* padding-top: 1rem; */
     padding-bottom: 0;
     overflow: hidden;
     line-height: normal;
-    background-color: var(--offwhite);
+    /* background-color: var(--offwhite); */
+    /* background-image: url("../img/bg1.jpg"); */
+    background: linear-gradient(180deg, rgb(90, 140, 255, 0.99), rgba(255, 255, 255, 0.3)), url("../img/Pattern\ 6.png");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
 }
 
-#about .container-fluid {
+/* #about .container-fluid {
     padding: 10px;
     background-color: var(--greyishbeige);
-}
+} */
 
 #about p {
     color: var(--darknavyblue);
@@ -790,6 +736,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     line-height: normal;
     /* margin: 0 0 0 0; */
     font-size: 30px;
+    /* margin-top: 2rem; */
 }
 
 #about li {
@@ -801,8 +748,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .about-img {
     height: 420px;
-    overflow: hidden;
-    margin-bottom: 30px;
+    overflow: scroll;
+    /* margin-bottom: 30px; */
 }
 
 #about .about-img img {
@@ -824,10 +771,10 @@ body.mobile-nav-active #mobile-nav-toggle {
     }
 }
 
-#about .content .h2 {
+#about .h2 {
     color: var(--darknavyblue);
-    font-weight: 300;
-    font-size: 24px;
+    font-weight: 500;
+    font-size: 30px;
 }
 
 #about .content h3 {
@@ -858,7 +805,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .content ul li {
-    padding-bottom: 10px;
+    padding-bottom: 2rem;
 }
 
 /* Product Featuress Section
@@ -1078,7 +1025,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #more-features {
     padding: 100px 0 50px 0;
     overflow: hidden;
-    background-color: var(--dodgerblue);
+    background-color: var(--offwhite);
 }
 
 #more-features h3 {
@@ -1162,12 +1109,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 #clients {
     padding-top: 1rem;
     padding-bottom: 25px;
-    background: var(--offwhite);
-    overflow: hidden;
+    /* background: var(--offwhite); */
+    /* overflow: hidden; */
 }
 
 #clients .container-fluid {
-    background-color: var(--greyishbeige);
+    /* background-color: var(--offwhite); */
     padding-top: 50px;
     padding-left: 30px;
     padding-right: 30px;
@@ -1176,13 +1123,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 #clients img {
     max-width: 100%;
     max-height: 40%;
-    opacity: 0.5;
+    opacity: 1;
     transition: 0.3s;
     padding: 15px 0;
 }
 
 #clients img:hover {
-    opacity: 1;
+    opacity: 0.6;
 }
 
 #clients p {
@@ -1224,9 +1171,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #doc .container-fluid {    
-    padding: 40px;
+    padding: 70px;
     background-color: var(--royalblue);
-    box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.75);
+    /* box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.75); */
     
     /* --notchSize: 20px;
     
@@ -1308,7 +1255,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
     #doc .doc-img-right,
     #doc .doc-img-left {
-        max-width: 50%;
+        max-width: 100%;
     }
 }
 
@@ -1316,7 +1263,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
     #doc .doc-img-right,
     #doc .doc-img-left {
-        max-width: 50%;
+        max-width: 100%;
         float: none;
         padding: 0 0 30px 0;
     }
@@ -1403,12 +1350,22 @@ body.mobile-nav-active #mobile-nav-toggle {
 #belt {
     padding: 40px 0;
     overflow: hidden;
-    background-color: var(--crismson);
+    background-color: var(--darknavyblue);
 }
 
 #belt .carousel-inner {
-    color: var(--offwhite);
-    padding: 4rem;
+    color: var(--crismson);
+    padding: 6rem;
+}
+
+#belt h1{
+    font-size: 40px;
+    font-weight: 300;
+}
+
+#belt h2 {
+    font-size: 40px;
+    font-weight: 500;
 }
 
 /* Our Team Section
@@ -1488,12 +1445,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Gallery Section
 --------------------------------*/
 #gallery {
-    background: var(--dodgerblue);
+    background: var(--greyishbeige);
     overflow: hidden;
 }
 
 #gallery .container-fluid {
-    background-color: var(--royalblue);
+    /* background-color: var(--royalblue); */
     margin-top: 2rem;
     padding-left: 40px !important;
     padding-right: 40px !important;
